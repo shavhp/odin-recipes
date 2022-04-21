@@ -37,9 +37,14 @@ h2,
     color: #520556;
 }
 
+h3 {
+    color: #ca431d;
+}
+
 img {
     width: 300px;
     height: auto;
     display: block;
     margin: 0 auto;
+    border-radius: 20px;
 }
