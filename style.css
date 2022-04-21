@@ -1,0 +1,15 @@
+body {
+    background-color: #ffe5be;
+}
+
+h1 {
+    color: #ca431d;
+    text-align: center;
+}
+
+img {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
