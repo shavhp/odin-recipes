@@ -48,3 +48,42 @@ img {
     margin: 0 auto;
     border-radius: 20px;
 }
+
+ul li {
+    color: #ca431d;
+    display: inline-block;
+    list-style: none;
+    margin: 0 0 16px 1.1225em;
+    padding: 0;
+    position: relative;
+}
+
+ul li::before {
+    color: #8b104e;
+    content: "\2022";
+    display: inline-block;
+    font-size: 1em;
+    left: -1.1225em;
+    position: absolute;
+    top: 0em;
+}
+
+ol li {
+    color: #8b104e;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    counter-increment: list;
+    list-style-type: none;
+    position: relative;
+   }
+
+ol li::before {
+    color: #ca431d;
+    font-weight: bold;
+    content: counter(list)".";
+    left: -32px;
+    position: absolute;
+    text-align: right;
+    width: 26px;
+}
+
