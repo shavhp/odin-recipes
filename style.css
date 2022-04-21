@@ -1,15 +1,29 @@
 body {
-    background-color: #ffe5be;
+    
     font-family: 'Courier New', Courier, monospace;
+}
+
+.full-body {
+    background-color: #ffe5be;
+    max-width: 80%;
+    min-width: 70%%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 40px;
 }
 
 h1,
 h2,
+h3,
 .intro,
 .intro.second {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.intro,
+.intro.second {
+font-size: 18px;
+}
 
 h1 {
     color: #ca431d;
