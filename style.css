@@ -51,22 +51,7 @@ img {
 
 ul li {
     color: #ca431d;
-    display: inline-block;
-    list-style: none;
-    margin: 0 0 16px 1.1225em;
-    padding: 0;
-    position: relative;
-}
-
-ul li::before {
-    color: #8b104e;
-    content: "\2022";
-    display: inline-block;
-    font-size: 1em;
-    left: -1.1225em;
-    position: absolute;
-    top: 0em;
-}
+   }
 
 ol li {
     color: #8b104e;
@@ -85,4 +70,23 @@ ol li::before {
     position: absolute;
     text-align: right;
     width: 26px;
+}
+
+a:link,
+a:visited {
+    color: #ca431d;
+}
+
+.recipe-link {
+    display: inline;
+    padding: 0 2px 0 2px;
+    }
+
+.link-color:link,
+.link-color:visited {
+    color: #8b104e;
+}
+
+.home-link {
+
 }
