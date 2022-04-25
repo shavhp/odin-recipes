@@ -77,10 +77,19 @@ a:visited {
     color: #ca431d;
 }
 
+.recipes {
+    list-style: none;
+    padding: 0;
+}
+
 .recipe-link {
     display: inline;
-    padding: 0 2px 0 2px;
-    }
+}
+
+.table {
+    display: table;
+    margin: 0 auto;
+}
 
 .link-color:link,
 .link-color:visited {
